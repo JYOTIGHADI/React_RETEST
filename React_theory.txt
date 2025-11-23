@@ -22,7 +22,9 @@ ans=
 
 
 5. Explain the concept of “one-way data flow” in React.
-ans=
+ans= in the react react follows the one way flow meaning the data move form parent component to the child component
+this is make help the app easier to the debug 
+
 
 
 6. What are props in React, and how do they differ from state?
@@ -77,14 +79,19 @@ ans=the  rerenderind is the  happens the state and  props of a component changs 
 16. What are higher-order components (HOCs) in React?
 
 
+
 17. Explain the purpose of React Fragments.
+ans=the Fragments is let the group multiple elements without adding the extra html like div 
+and this also keep a virtual dom clean
 
 
 18. What is the significance of the key prop in lists?
 ans=
 
-19. What is prop drilling, and how can it be avoided?
 
+
+19. What is prop drilling, and how can it be avoided?
+ans=
 
 
 20. What is memoization in React, and why is it important?
