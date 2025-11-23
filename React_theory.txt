@@ -18,7 +18,9 @@ the state also the functional component are easier to eriote and perform better 
 
 
 4. What is JSX, and why is it preferred over plain JavaScript?
-ans=
+ans=jsx is a syntax that lets us to write the html inside the javascript it make code cleaner and easier to read 
+instead of using complex ui the jsx allow simple markup code.
+
 
 
 5. Explain the concept of “one-way data flow” in React.
@@ -66,7 +68,8 @@ it ia useful  for a like a themes  language and the auth
 
 
 13. Explain what lifting state up means in React and why it is important.
-
+ans=the lifting state is means the moving shared state to the nearest common perent so multiple child component can use it
+this avoid the duplicated state and keeps data consistent that why it is a important
 
 
 14. What is component re-rendering, and what causes it in React?
@@ -74,10 +77,10 @@ ans=the  rerenderind is the  happens the state and  props of a component changs 
 
 
 15. What is React’s reconciliation process?
-
+ans=
 
 16. What are higher-order components (HOCs) in React?
-
+ans=
 
 
 17. Explain the purpose of React Fragments.
