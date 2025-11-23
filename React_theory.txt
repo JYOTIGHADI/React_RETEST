@@ -1,0 +1,121 @@
+1. What is React, and why is it used for building user interfaces?
+ans=react is the javascript libraty used to build the user interfaces and it is a single page applications, and it is also a component based and 
+declarative its also allow to efficient ui updates using a virtual DOM
+it help to developer create fast and interactive web apps using reusable components.
+
+
+
+2. Explain the concept of the Virtual DOM and how it improves performance.
+ans=the virtual dom is a lightweight copy of the real dom this is a Instead updating the actual dom directly
+react is a update virtual dom first and applies the only necessary changes to in the real dom that help reduces slow operations and ui faster.
+
+
+
+3. What are the main differences between class components and functional components?
+ans= the class component are use the ES6 and its have method lifecycle and the functional component is the simple js Function but the hook can also manage
+the state also the functional component are easier to eriote and perform better than class component.
+
+
+
+4. What is JSX, and why is it preferred over plain JavaScript?
+ans=
+
+
+5. Explain the concept of “one-way data flow” in React.
+ans=
+
+
+6. What are props in React, and how do they differ from state?
+ans= the prop in the react is  inputs passed from a parent to the child component are read only and 
+state is data manageing inside the component and its can  be updated props cant be changed by the component but state changed.
+
+
+7. What is state management, and why is it important in React applications?
+ans=the state management in handling the data to changes in the application it is a important because the ui is updates depend the state
+state management keep the app in reduces the bug.
+
+
+
+8. What are React Hooks, and why were they introduced?
+ans=the react hook is build in function thet we use state and other react features in the functional component
+the react hook introduced for the avoid the complex class component and reusable code.
+
+
+9. Explain the purpose of the useState hook.
+ans=the purpose of the useState hook is a used to create a manage state inside the functional component 
+and it is a also returns a value and the function to update the value.
+
+
+
+10. Explain the purpose of the useEffect hook and when it is used.
+ans=the purpose of the useEffect hook is the runs side effects like fetching the api data update the title or setting timers
+and the its run after the component renders
+
+
+
+11. What are controlled and uncontrolled components in React?
+and=the a controlled component is managed React stateand  the input value come for the state
+and the uncontrolled component store its own data inside the dom using  instead of state
+
+
+12. What is React Context, and when should you use it?
+ans=the react Context is a used  to share data to many component without the passing the props manually in a every level
+it ia useful  for a like a themes  language and the auth
+
+
+13. Explain what lifting state up means in React and why it is important.
+
+
+
+14. What is component re-rendering, and what causes it in React?
+ans=the  rerenderind is the  happens the state and  props of a component changs in  React when  update the ui to new data
+
+
+15. What is React’s reconciliation process?
+
+
+16. What are higher-order components (HOCs) in React?
+
+
+17. Explain the purpose of React Fragments.
+
+
+18. What is the significance of the key prop in lists?
+ans=
+
+19. What is prop drilling, and how can it be avoided?
+
+
+
+20. What is memoization in React, and why is it important?
+ans=in the react memoization is saves the result of the function so is doesnot  run again the unnecessarily
+in react it also avoid the a unwanted re renders and performance of speeds
+
+
+
+21. Explain what React Router is and why it is used.
+ans=the react router is a library use for the navigation in react app it is a help tho create single page application changing components
+based on the url without refreshing the page 
+
+
+22. What is server-side rendering (SSR) in React, and what benefits does it provide?
+ans=the server side rendering isthe rendering react component on the server instead of the browser it is a improves load the initial page and faster
+ and the give better perform on slow devices browser
+
+
+23. Explain the concept of lazy loading in React.
+ans= the concept of the lazy loading in react is the means loading the component only it is needed
+it is reduces the size and improves initial loading time
+
+
+
+24. What is Redux, and why is it used alongside React?
+ans= the redux is a state management library is used to store application wide data in one place 
+it is used with React to manage complex state for in large applications
+
+
+25. What are React performance optimization techniques you can apply in large applications?
+ans=the react performance optimization techniques are is the use memo to avoid the unnecessary re reders in the application
+and the another is the useCallback that hepl to the useMemo to memoize the function and value and we can used also a Split the code in to a samaller bundles
+that can also help that is some techniques
+
